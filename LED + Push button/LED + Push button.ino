@@ -50,7 +50,7 @@ void eteindrediode(){ //The LEDs are all off
   delay(500);
 }
 
-void mode1(){
+void mode1(){ //The first mode
   digitalWrite(ld1, HIGH);
   delay(250);
   digitalWrite(ld2, HIGH);
@@ -65,7 +65,7 @@ void mode1(){
   delay(250);
 }
 
-void mode2(){
+void mode2(){ //The second mode
   digitalWrite(ld1, HIGH);
   digitalWrite(ld2, LOW);
   digitalWrite(ld3, HIGH);
@@ -76,7 +76,7 @@ void mode2(){
   delay(500);
 }
 
-void mode3(){
+void mode3(){ //The third mode
   digitalWrite(ld1, HIGH);
   delay(250);
   digitalWrite(ld1, LOW);
